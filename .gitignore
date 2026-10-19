@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Secretos y credenciales del tunel
+tunnel_key
+tunnel_key.pub
+known_hosts
+*.pem
+
+# Logs
+tunnel.log
+*.log
+
+# Previews generados por ICON-DRAWER.py
+preview_*.png
+
+# IDE / SO
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini

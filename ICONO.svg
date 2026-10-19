@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="gris" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9aa0a4"/>
+      <stop offset="100%" stop-color="#7d8387"/>
+    </linearGradient>
+    <clipPath id="circulo">
+      <circle cx="32" cy="32" r="30"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fondo circular (concreto) -->
+  <circle cx="32" cy="32" r="30" fill="url(#gris)"/>
+
+  <g clip-path="url(#circulo)">
+    <!-- Borde negro grueso de la boca del tunel -->
+    <path d="M12 64 L12 34 Q12 12 32 12 Q52 12 52 34 L52 64 Z" fill="#141210"/>
+
+    <!-- Interior naranja plano (sin difuminado) -->
+    <path d="M18 64 L18 36 Q18 18 32 18 Q46 18 46 36 L46 64 Z" fill="#e8821c"/>
+
+    <!-- Camino -->
+    <path d="M18 64 L22 48 Q32 45 42 48 L46 64 Z" fill="#26282b"/>
+
+    <!-- Doble linea amarilla -->
+    <path d="M30.6 64 L31.4 50 L32.6 50 L33.4 64 Z" fill="#f0a828"/>
+  </g>
+
+  <!-- Borde sutil -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#5f6569" stroke-width="1.5"/>
+</svg>
